@@ -10,6 +10,7 @@ public class fase2 {
         String city5;
         String city6;
         String [] cities_array = new String[6];
+
         Scanner entrada = new Scanner(System. in);
 
         System.out.print("Enter the name of a city : ");
@@ -39,5 +40,6 @@ public class fase2 {
 
         Arrays.sort(cities_array);
         System.out.println("The name of the cities are : \n"+ Arrays.toString(cities_array));
+
     }
 }
